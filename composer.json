@@ -1,6 +1,8 @@
 {
     "description": "teste",
-    "name": "mp-ecommerce-php",
+    "name": "mp-ecommerce-php/wl",
     "type": "project",
-    "require": {"mercadopago/dx-php": "2.2.1"}
+    "require": {
+        "mercadopago/dx-php": "2.2.1"
+    }
 }
