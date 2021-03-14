@@ -488,6 +488,8 @@
                                 <?php
                                 require_once 'vendor/autoload.php'; // You have to require the library from your Composer vendor folder
 
+                                echo "olá estou aqui";
+
                                 MercadoPago\SDK::setAccessToken("YOUR_ACCESS_TOKEN"); // Either Production or SandBox AccessToken
 
                                 $payment = new MercadoPago\Payment();
